@@ -1,6 +1,5 @@
 package BT1;
 
-
 import java.util.Date;
 
 public class SystemTime {
