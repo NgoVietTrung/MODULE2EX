@@ -25,6 +25,9 @@ public class Dateinmonth {
                 break;
             case 2:
                 System.out.println("Thang  " + month + " co 28 hoac 29 ngay");
+                break;
+            default:
+                System.out.println("Khong ton tai thang " + month);
         }
     }
 }
