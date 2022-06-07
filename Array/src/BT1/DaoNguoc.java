@@ -7,7 +7,7 @@ public class DaoNguoc {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int[] numbers = new int[20];
-//        int[] reversenumbers=new int[20];
+
         for (int i = 0; i < numbers.length; i++) {
             System.out.print("Numbers[" + i + "]: ");
             numbers[i] = scanner.nextInt();
