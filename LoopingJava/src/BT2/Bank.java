@@ -12,7 +12,9 @@ public class Bank {
         System.out.print("So thang gui ");
         int month = scanner.nextInt();
         double tienlai = 0;
-        tienlai += money * (laisuat / 100) / 12 * month;
+        for (int i = 0; i < month; i++) {
+            tienlai += money * (laisuat / 100) / 12;
+        }
         System.out.printf("Tien lai %.3f\n ", tienlai);
     }
 }
