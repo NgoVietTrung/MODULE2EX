@@ -16,6 +16,9 @@ public class FindCharInStr {
                 count++;
             }
         }
+        if (count==0){
+            System.out.println("Khong co ky tu "+kytu+" trong chuoi");
+        }
         System.out.print("Ky tu "+kytu+" xuat hien "+count+" lan trong "+str);
     }
 }
