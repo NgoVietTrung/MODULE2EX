@@ -1,7 +1,7 @@
 package BT3;
 
 public class Circle {
-    private double radius;
+    private double radius=1;
     private String color="Red";
     public Circle(){
 
