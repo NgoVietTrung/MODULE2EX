@@ -12,9 +12,10 @@ public class Circle {
         this.radius = radius;
     }
 
-    public Circle(double radius, String color) {
+    public Circle(double radius, String color, boolean filled) {
         this.radius = radius;
         this.color = color;
+        this.filled=filled;
     }
 
     public String getColor() {
@@ -50,4 +51,5 @@ public class Circle {
 
     }
 }
+
 
