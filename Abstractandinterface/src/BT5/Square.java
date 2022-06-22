@@ -1,6 +1,6 @@
-package BT4;
+package BT5;
 
-public class Square extends Rectangle implements Resizeable {
+public class Square extends Rectangle implements Colorable {
     double side = 1.0;
 
     public Square() {
@@ -34,11 +34,10 @@ public class Square extends Rectangle implements Resizeable {
     }
 
     public String toString() {
-        return "A Square with side=" + side + " , which is a subclass of " + super.toString() ;
+        return "A Square with side=" + side + " , which is a subclass of " + super.toString();
     }
-    public double reSize() {
-        double percent = Math.random() * 100 + 1;
-        System.out.println(percent+"%");
-        return getArea() * ((100 + percent) / 100);
+
+    public void howtoColor() {
+        System.out.println("Color all four sides..");
     }
 }

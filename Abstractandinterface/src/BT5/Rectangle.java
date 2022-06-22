@@ -1,6 +1,6 @@
-package BT4;
+package BT5;
 
-public class Rectangle extends Shape implements Resizeable {
+public class Rectangle extends Shape {
     private double width = 1.0;
     private double length = 1.0;
 
@@ -54,11 +54,4 @@ public class Rectangle extends Shape implements Resizeable {
                 + getArea();
     }
 
-
-
-    public double reSize() {
-        double percent = Math.random() * 100 + 1;
-        System.out.println(percent+"%");
-        return getArea() * ((100 + percent) / 100);
-    }
 }
